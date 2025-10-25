@@ -6,13 +6,16 @@
     <description>Recent content in Posts on ToanBlog</description>
     <generator>Hugo -- 0.152.1</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ToanBlog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Từ Code đến Tầm Nhìn: Lập Trình Dạy Tôi Về Sự Kiên Nhẫn</title>
       <link>http://localhost:1313/ToanBlog/posts/post10/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ToanBlog/posts/post10/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;huỳnh-đức-toàn&#34;&gt;Huỳnh Đức Toàn&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Huỳnh Đức Toàn&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Khi bắt đầu hành trình lập trình, mình từng nghĩ đó chỉ là việc gõ code để tạo ra một ứng dụng hoạt động. Nhưng qua thời gian làm quen với Python, C++, và những dự án cá nhân, mình nhận ra lập trình không chỉ là kỹ thuật – nó còn là một hành trình khám phá bản thân và phát triển tư duy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kỹ thuật đa tiến trình và tuần tự hóa đối tượng: Khi mạng cần chia sẻ</title>

@@ -2,7 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/ToanBlog/posts/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ToanBlog/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/ToanBlog/posts/post10/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ToanBlog/categories/</loc>
   </url><url>
@@ -18,8 +25,6 @@
   </url><url>
     <loc>http://localhost:1313/ToanBlog/posts/post9/</loc>
   </url><url>
-    <loc>http://localhost:1313/ToanBlog/posts/</loc>
-  </url><url>
     <loc>http://localhost:1313/ToanBlog/profile/</loc>
   </url><url>
     <loc>http://localhost:1313/ToanBlog/posts/post2/</loc>
@@ -27,8 +32,6 @@
     <loc>http://localhost:1313/ToanBlog/posts/post4/</loc>
   </url><url>
     <loc>http://localhost:1313/ToanBlog/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/ToanBlog/</loc>
   </url><url>
     <loc>http://localhost:1313/ToanBlog/posts/post1/</loc>
   </url>
