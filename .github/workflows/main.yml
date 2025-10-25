@@ -1,11 +1,11 @@
-# File: .github/workflows/hugo.yml
+# File: .github/workflows/main.yml (hoặc hugo.yml)
 
 name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Thay bằng nhánh bạn dùng, ví dụ: master nếu dùng nhánh master
+      - main  # Nhánh main là đúng theo ảnh của bạn
 
 jobs:
   deploy:
@@ -14,18 +14,22 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          submodules: true  # Nếu bạn dùng theme Hugo dưới dạng submodule
+          submodules: true  # Nếu bạn dùng theme Hugo dưới dạng submodule, giữ lại.
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'  # Sử dụng phiên bản Hugo mới nhất
+          hugo-version: 'latest'
 
+      # BƯỚC SỬA LỖI QUAN TRỌNG: Thêm tham số --baseURL
       - name: Build site
-        run: hugo --minify  # Build site với chế độ tối ưu hóa
+        # Thay thế bằng URL GitHub Pages của bạn: https://[Tên người dùng].github.io/[Tên repo]/
+        run: hugo --minify --baseURL "https://huynhductoan2004.github.io/ToanBlog/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public  # Thư mục public được tạo bởi Hugo
+          publish_dir: ./public  # Thư mục public được tạo bởi Hugo
+          # Cấu hình publish_branch: đảm bảo nó đẩy vào nhánh bạn đã cấu hình trên Pages (thường là gh-pages)
+          publish_branch: gh-pages
