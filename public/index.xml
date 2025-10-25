@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ToanBlog</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/ToanBlog/</link>
     <description>Recent content on ToanBlog</description>
     <generator>Hugo -- 0.152.1</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ToanBlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/post10/</link>
+      <link>http://localhost:1313/ToanBlog/posts/post10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post10/</guid>
+      <guid>http://localhost:1313/ToanBlog/posts/post10/</guid>
       <description></description>
     </item>
     <item>
       <title>Kỹ thuật đa tiến trình và tuần tự hóa đối tượng: Khi mạng cần chia sẻ</title>
-      <link>http://localhost:1313/posts/post6/</link>
+      <link>http://localhost:1313/ToanBlog/posts/post6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post6/</guid>
+      <guid>http://localhost:1313/ToanBlog/posts/post6/</guid>
       <description>&lt;p&gt;Khi làm việc với ứng dụng mạng, mình từng nghĩ multithreading là đủ để xử lý nhiều kết nối. Nhưng rồi mình phát hiện đa tiến trình (multiprocessing) và tuần tự hóa đối tượng (serialization) lại là “vũ khí” mạnh mẽ hơn trong một số trường hợp. Hôm nay, mình sẽ chia sẻ về cách hai kỹ thuật này giúp ứng dụng mạng mạnh mẽ hơn.&lt;/p&gt;
 &lt;h4 id=&#34;đa-tiến-trình-và-tuần-tự-hóa-là-gì&#34;&gt;Đa tiến trình và tuần tự hóa là gì?&lt;/h4&gt;
 &lt;ul&gt;
@@ -30,73 +30,73 @@
     </item>
     <item>
       <title>Lập trình đa tuyến: Khi mọi thứ cần chạy cùng lúc</title>
-      <link>http://localhost:1313/posts/post3/</link>
+      <link>http://localhost:1313/ToanBlog/posts/post3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post3/</guid>
+      <guid>http://localhost:1313/ToanBlog/posts/post3/</guid>
       <description>&lt;p&gt;Hồi mới học lập trình mạng, mình từng nghĩ một chương trình chỉ cần chạy tuần tự là đủ. Nhưng khi làm một ứng dụng chat, mình nhận ra: nếu chỉ chạy một luồng (thread), server sẽ “đơ” khi có nhiều client kết nối. Đó là lúc mình khám phá lập trình đa tuyến (multithreading). Hôm nay, mình sẽ chia sẻ về cách multithreading giúp ứng dụng mạng “thở” dễ hơn.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lập trình mạng cho giao thức UDP: Nhanh nhưng không chắc</title>
-      <link>http://localhost:1313/posts/post7/</link>
+      <link>http://localhost:1313/ToanBlog/posts/post7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post7/</guid>
+      <guid>http://localhost:1313/ToanBlog/posts/post7/</guid>
       <description>&lt;p&gt;Sau khi làm việc với TCP, mình muốn thử một giao thức khác: UDP. Nghe nói UDP nhanh hơn, nhưng mình nhanh chóng nhận ra “nhanh” đi kèm với rủi ro. Hôm nay, mình sẽ chia sẻ về lập trình mạng với UDP và những lần mình “mất gói tin” trên hành trình.&lt;/p&gt;
 &lt;h4 id=&#34;udp-là-gì&#34;&gt;UDP là gì?&lt;/h4&gt;
 &lt;p&gt;UDP (User Datagram Protocol) giống như gửi thư không bảo đảm: nhanh, nhưng không đảm bảo thư đến đúng hay đầy đủ. Nó phù hợp cho ứng dụng cần tốc độ, như streaming hoặc game online.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lập trình multicast: Gửi một, nhận nhiều</title>
-      <link>http://localhost:1313/posts/post8/</link>
+      <link>http://localhost:1313/ToanBlog/posts/post8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post8/</guid>
+      <guid>http://localhost:1313/ToanBlog/posts/post8/</guid>
       <description>&lt;p&gt;Khi làm việc với mạng, mình từng thắc mắc: làm sao gửi dữ liệu đến nhiều người nhận cùng lúc mà không tốn tài nguyên? Đó là lúc mình khám phá multicast. Hôm nay, mình sẽ chia sẻ về lập trình multicast và cách nó giúp tiết kiệm “nhiên liệu” mạng.&lt;/p&gt;
 &lt;h4 id=&#34;multicast-là-gì&#34;&gt;Multicast là gì?&lt;/h4&gt;
 &lt;p&gt;Multicast giống như phát thanh: một máy gửi dữ liệu, nhiều máy nhận cùng lúc. Nó khác với unicast (gửi cho một người) và broadcast (gửi cho tất cả). Multicast dùng nhóm địa chỉ đặc biệt (như 224.0.0.0 đến 239.255.255.255).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lập trình socket cho giao thức TCP: Xây cầu nối bền vững</title>
-      <link>http://localhost:1313/posts/post5/</link>
+      <link>http://localhost:1313/ToanBlog/posts/post5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post5/</guid>
+      <guid>http://localhost:1313/ToanBlog/posts/post5/</guid>
       <description>&lt;p&gt;Lần đầu viết chương trình mạng, mình chọn TCP vì nghe nói nó “đáng tin cậy”. Nhưng khi code, mình nhận ra TCP không chỉ là gửi dữ liệu – nó giống như xây một cây cầu chắc chắn giữa hai máy tính. Hôm nay, mình sẽ chia sẻ về lập trình socket với TCP và những bài học từ những lần “cầu sập”.&lt;/p&gt;
 &lt;h4 id=&#34;tcp-và-socket-là-gì&#34;&gt;TCP và socket là gì?&lt;/h4&gt;
 &lt;p&gt;TCP (Transmission Control Protocol) đảm bảo dữ liệu được gửi đến đúng nơi, đúng thứ tự, không bị mất. Socket là “đầu nối” để gửi/nhận dữ liệu qua TCP.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Phân tán đối tượng trong Java bằng RMI: Khi Java “nói chuyện” từ xa</title>
-      <link>http://localhost:1313/posts/post9/</link>
+      <link>http://localhost:1313/ToanBlog/posts/post9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post9/</guid>
+      <guid>http://localhost:1313/ToanBlog/posts/post9/</guid>
       <description>&lt;p&gt;Khi học Java, mình từng nghe về RMI (Remote Method Invocation) và nghĩ nó giống như “phép thuật” cho phép gọi hàm từ xa. Nhưng khi thử, mình nhận ra nó không đơn giản như vậy. Hôm nay, mình sẽ chia sẻ về RMI và cách nó giúp phân tán đối tượng trong Java.&lt;/p&gt;
 &lt;h4 id=&#34;rmi-là-gì&#34;&gt;RMI là gì?&lt;/h4&gt;
 &lt;p&gt;RMI cho phép một chương trình Java gọi phương thức của đối tượng trên máy khác, như thể đối tượng đó ở ngay trong máy mình. Nó giống như bạn gọi điện nhờ bạn bè chạy một hàm giúp, rồi nhận kết quả.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Profile Cá Nhân</title>
-      <link>http://localhost:1313/profile/</link>
+      <link>http://localhost:1313/ToanBlog/profile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/profile/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;Profile cá nhân&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/profile/hello.png&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/ToanBlog/profile/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Profile cá nhân&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/ToanBlog/profile/hello.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quản lý các luồng nhập xuất: Khi dữ liệu không chịu đứng yên</title>
-      <link>http://localhost:1313/posts/post2/</link>
+      <link>http://localhost:1313/ToanBlog/posts/post2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post2/</guid>
+      <guid>http://localhost:1313/ToanBlog/posts/post2/</guid>
       <description>&lt;p&gt;Lần đầu làm việc với lập trình mạng, mình bị choáng ngợp bởi cách dữ liệu “chạy” qua lại giữa client và server. Mình từng nghĩ cứ gửi dữ liệu là xong, nhưng hóa ra, quản lý luồng nhập/xuất (I/O) lại là một câu chuyện hoàn toàn khác. Hôm nay, mình sẽ chia sẻ về luồng I/O trong lập trình mạng và cách mình học được từ những lần “đuối” với dữ liệu.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quản lý địa chỉ kết nối mạng: Hành trình tìm đúng “nhà”</title>
-      <link>http://localhost:1313/posts/post4/</link>
+      <link>http://localhost:1313/ToanBlog/posts/post4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post4/</guid>
+      <guid>http://localhost:1313/ToanBlog/posts/post4/</guid>
       <description>&lt;p&gt;Khi mới học lập trình mạng, mình cứ nghĩ chỉ cần biết địa chỉ IP là đủ để kết nối. Nhưng rồi mình nhận ra: quản lý địa chỉ mạng không chỉ là IP, mà còn là port, giao thức, và cả cách tìm “nhà” đúng trong thế giới mạng. Hôm nay, mình sẽ chia sẻ về cách quản lý địa chỉ kết nối mạng và những lần mình “lạc đường”.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tổng quan về lập trình mạng: Hành trình bắt đầu với những kết nối vô hình</title>
-      <link>http://localhost:1313/posts/post1/</link>
+      <link>http://localhost:1313/ToanBlog/posts/post1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post1/</guid>
+      <guid>http://localhost:1313/ToanBlog/posts/post1/</guid>
       <description>&lt;p&gt;Hồi mới học lập trình, mình cứ nghĩ mạng máy tính chỉ là việc cắm dây Ethernet hoặc kết nối Wi-Fi. Nhưng khi bước vào thế giới lập trình mạng, mình nhận ra nó giống như một vũ trụ vô hình, nơi các máy tính “trò chuyện” với nhau qua những giao thức bí ẩn. Hôm nay, mình sẽ chia sẻ tổng quan về lập trình mạng – cánh cửa đầu tiên để bạn hiểu cách xây dựng ứng dụng kết nối toàn cầu.&lt;/p&gt;</description>
     </item>
   </channel>

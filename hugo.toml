@@ -1,5 +1,4 @@
 baseURL = "https://huynhductoan2004.github.io/ToanBlog/"
-relativeURLs = true
 languageCode = 'en-us'
 title = 'ToanBlog'
 theme = "PaperMod"
