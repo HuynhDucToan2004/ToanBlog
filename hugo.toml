@@ -1,0 +1,36 @@
+baseURL = 'https://github.com/HuynhDucToan2004/ToanBlog/'
+languageCode = 'en-us'
+title = 'ToanBlog'
+theme = "PaperMod"
+[params]
+  env = "production"
+  defaultTheme = "light"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButton = false
+  ShowSearch = true # Bật nút tìm kiếm
+
+  # KÍCH HOẠT CUSTOM CSS: LỆNH NÀY ĐÃ ĐƯỢC ĐẶT TRONG KHỐI [params]
+  customCSS = ["css/custom.css"]
+
+  [params.homeInfoParams]
+    Title = "Đây Là ToanBlog" 
+    Content = "You don't have to be great to start but you have to start to be great."
+
+# ===============================================
+# Cấu hình Menu
+# ===============================================
+[menu]
+  [[menu.main]]
+    identifier = "profile"
+    name = "Profile"
+    url = "/profile/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Bài Viết"
+    url = "/posts/"
+    weight = 20

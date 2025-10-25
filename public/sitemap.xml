@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/posts/post10/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post6/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post3/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post7/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post8/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post5/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post9/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+  </url><url>
+    <loc>http://localhost:1313/profile/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post4/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/post1/</loc>
+  </url>
+</urlset>
