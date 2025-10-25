@@ -1,0 +1,30 @@
+/* Ẩn tất cả social media icons */
+.social-icons {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Ẩn share icons ở cuối trang */
+.share-buttons {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Ẩn toàn bộ footer của home-info */
+.home-info .entry-footer {
+    display: none !important;
+}
+
+/* Ẩn social icons trong profile */
+.profile .social-icons {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Ẩn tất cả các loại social/share icons */
+ul.share-buttons,
+.share-buttons ul,
+.entry-footer .share-buttons {
+    display: none !important;
+    visibility: hidden !important;
+}
