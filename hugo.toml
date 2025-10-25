@@ -13,9 +13,6 @@ theme = "PaperMod"
   ShowRssButton = false
   ShowSearch = true # Bật nút tìm kiếm
 
-  # KÍCH HOẠT CUSTOM CSS: LỆNH NÀY ĐÃ ĐƯỢC ĐẶT TRONG KHỐI [params]
-  customCSS = ["css/custom.css"]
-
   [params.homeInfoParams]
     Title = "Đây Là ToanBlog" 
     Content = "You don't have to be great to start but you have to start to be great."
